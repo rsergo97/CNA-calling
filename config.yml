@@ -1,0 +1,14 @@
+name: CiaNAs
+channels:
+    - bioconda
+    - conda-forge
+dependencies:
+    - varscan
+    - samtools
+    - python=3.7.6
+    - java-jdk
+    - r-base=3.6
+    - r-facets
+    - pip:
+        - pandas
+prefix: /home/sryaxovsky/miniconda3/envs/ciana
