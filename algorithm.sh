@@ -25,12 +25,12 @@ varscan somatic normal.mpileup tumor.mpileup ${sample_name}.varscan
 
 echo "Pileup has beed calculated"
 
-python ${workdir}/process_pileup.py -i ${sample_name}.varscan.snp -o ${sample_name}.to_call.txt 
+python ${workdir}/scripts/process_pileup.py -i ${sample_name}.varscan.snp -o ${sample_name}.to_call.txt 
 
 echo "CNA calling"
 # CNA calling by Facets script
 
-Rscript ${workdir}/facets_call.R ${sample_name}.to_call.txt ${hg} ${outdir}
+Rscript ${workdir}/scripts/facets_call.R ${sample_name}.to_call.txt ${hg} ${outdir}
 
 echo "Done! Segments and CNA plot are ready."
 
