@@ -16,7 +16,7 @@ Calling
 =====================
 Then run by typing:
 ```
-$ bash algorithm.sh --normal NORMAL_BAM --tumor $TUMOR_BAM --sample_id $NAME --hg hg38/hg19 --outdir $OUTDIR --workdir $WORKDIR
+$ bash algorithm.sh --normal $NORMAL_BAM --tumor $TUMOR_BAM --sample_id $NAME --hg hg38/hg19 --outdir $OUTDIR --workdir $WORKDIR
 ```
 
 
