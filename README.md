@@ -8,16 +8,17 @@ This tool is created for easy copynumber alterations calling and visualization b
 Installation 
 =====================
 To create the enviroment with all dependencies run:
-
+```
 $ conda env create -f config.yml
 $ conda activate CiaNAs
 
+```
 Calling
 =====================
 Then run by typing:
-
+```
 $ bash algorithm.sh --normal NORMAL_BAM --tumor $TUMOR_BAM --sample_id $NAME --hg hg38/hg19 --outdir $OUTDIR --workdir $WORKDIR
-
+```
 
 
 ## Literature Resources
