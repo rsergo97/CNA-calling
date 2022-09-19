@@ -11,7 +11,6 @@ To create the enviroment with all dependencies run:
 ```
 $ conda env create -f config.yml
 $ conda activate CiaNAs
-
 ```
 Calling
 =====================
