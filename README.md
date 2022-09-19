@@ -1,7 +1,7 @@
 # CNA-calling
 
 
-This is beta version of CNA caller. It temporary uses the facets algorithm for CNA detection. 
+This is beta version of CNA caller. It temporary uses the facets algorithm for CNA detection. My personal calling algorithm is in development stage. It will be ready soon and will replace current method.
 
 This tool is created for easy copynumber alterations calling and visualization based on tumor/normal samples ratio. 
 
